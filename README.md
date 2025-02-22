@@ -1,23 +1,23 @@
 # Awesome Satellite Instances
 
-这个仓库聚焦于无线网络与空间网络的实例，并进行分类汇总
+🔥 这个仓库聚焦于无线网络与空间网络的实例，并进行分类汇总 🔥
 
 - [SkyField](https://rhodesmill.org/skyfield/) 用于天文学计算的python库，这里展示了一些常用的样例
 - [STK](https://www.ansys.com/products/missions/ansys-stk) 用于卫星网络仿真，这里展示了一些比较热门的拓扑、算法样例
 
-笔者对于这两个工具的学习路径全部在 [Carrot-World博客](https://blog.bxhu2004.com/) 中展示，最具体、最详细的内容都在博客，此仓库只是一个汇总版
+笔者对于这两个工具的学习路径全部在 [Carrot-World STK and Skyfield](https://blog.bxhu2004.com/Sci_doc/) 中展示，最具体、最详细的内容都在博客，此仓库只是一个汇总版
 
 这个仓库相当于 `Cheat Sheet`，仅用于分类实例，便于未来使用 👍
 
 ## How to Install
 
-🔥 配置 SkyField 非常简单，跟官方文档走一通即可 🔥
+配置 SkyField 非常简单，跟官方文档走一通即可 🌟
 
-⚠️ 但是配置 STK 的过程非常痛苦 😅
+但是配置 STK 的过程非常痛苦 😅
 
-笔者在 [Carrot-World 博客](https://blog.bxhu2004.com/) 里写了二者的详细配置教程，自顶向下，适用于新手入门
+笔者在 [Carrot-World 博客](https://blog.bxhu2004.com/Sci_doc/) 里写了二者的详细配置教程，自顶向下，适用于新手入门
 
-在运行本仓库实例前，请确保完全按照上述教程配置环境 🌟
+在运行本仓库实例前，请确保完全按照上述教程配置环境 ⚠️
 
 ## Instances
 
