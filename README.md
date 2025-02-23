@@ -116,4 +116,35 @@ Each Satellite is equipped with Transmitter and Receiver
 
 ### Skyfield
 
+[Carrot-World Skyfield](https://blog.bxhu2004.com/Sci_doc/skyfield/)
+
+这一部分比较简单，直接跟Blog里走就行，随用随查，像字典 👀
+
+## Acknowledges
+
+关于 **无线与空间网络** 的仓库推荐:
+
+- [STK 官网文档](https://help.agi.com/stkdevkit/index.htm): 记得切换到大🦌和🐘港以外的节点 🌟🌟🌟
+- [应该是某篇论文对应的实例](https://github.com/Golden-Slumber/Decentralized-Satellite-FL-dev)
+- [卫星网络模拟器汇总](https://github.com/jwwthu/Satellite-Network-Simulators)
+- [应该是某个小项目攒的例子](https://github.com/wlk12390/MyProject)
+- [某PhD学生的卫星网络论文/项目分类汇总](https://github.com/liuwei-network/awesome-satellite-network) 🌟🌟🌟
+
+数据集 (`TLE` / `CSV`):
+
+[CelesTrak](https://celestrak.com/)
+
+项目开发:
+
+- [Python-Skyfield](https://github.com/skyfielders/python-skyfield): 天文学计算库
+- [STK Code Examples](https://github.com/AnalyticalGraphicsInc/STKCodeExamples): STK 官方样例库
+- [STK Component Examples](https://github.com/AnalyticalGraphicsInc/STKComponentsExamples): STK 官方组件库
+- [Python-SGP4](https://github.com/brandon-rhodes/python-sgp4?tab=readme-ov-file): 模拟算法
+
+可视化:
+
+- [starlinkstatus.space](https://github.com/Tysonpower/starlinkstatus?tab=readme-ov-file): 快速获取Starlink运行状态
+- [StarLink.sx](https://starlink.sx/): Starlink全球可视化展示 🌟🌟🌟
+- [Cesium](https://cesium.com/): 提供免费的可视化API, 详见[Hypatia论文复现](https://github.com/root-hbx/hypatia-impl?tab=readme-ov-file#%E6%98%9F%E9%93%BE%E5%8F%AF%E8%A7%86%E5%8C%96)
+
 
