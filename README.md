@@ -25,6 +25,20 @@
 
 这里我们给出一些常见的 *STK仿真结果* 与 *相应的Python代码*:
 
+**Starlink by TLE**
+
+在 [CelesTrak 官网](https://celestrak.org/NORAD/elements/) 下载Starlink的TLE文件并保存为`TLE.txt`
+
+在STK界面中，直接 `Insert > New... > Satellite > From TLE file`
+
+选择一些item，点击Insert，进行最基础的效果显示:
+
+代码: 无
+
+结果:
+
+![alt text](./image/starlink-tle.png)
+
 **Basic Ring**
 
 一个圆环Orbit，上面只有一个Satellite
@@ -75,7 +89,9 @@
 
 建立 16x16 的 Starlink 动态网络拓扑
 
-配置: 16 orbit shell. each shell has 16 satellites
+配置: 16 orbit shell. Each shell has 16 satellites
+
+Each Satellite is equipped with Transmitter and Receiver
 
 代码: [starlink-16-16](./stk/starlink-16-16.py)
 
@@ -85,7 +101,19 @@
 
 ![alt text](./image/basic-starlink-1.png)
 
+**GS and LEO Dynamic Coverage**
+
+建立两个地面站，看卫星运动轨迹对应的覆盖情况
+
+- Satellite: Transmitter
+- GS: Receiver
+
+代码: [transmit](./stk/transmit.py)
+
+结果:
+
+![](./image/transmit.png)
+
 ### Skyfield
 
-TBD
 
